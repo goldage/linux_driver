@@ -1,0 +1,2 @@
+/home/lyk/linux_driver/ex24_platform_dts_irq/ex24_platform_dts_irq.ko
+/home/lyk/linux_driver/ex24_platform_dts_irq/ex24_platform_dts_irq.o
