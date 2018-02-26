@@ -25,7 +25,7 @@ static int goldage_driver_open(struct inode * inode,struct file * filp){
 
 	filp->private_data = dev;
 	
-	memset(dev->mem,0,sizeof(char)*GLOBALSIZE);
+	memset(dev->mem,0,sizeof(dev->mem));
 	memcpy(dev->mem,"abc",3);
 
 	printk("goldage_driver_open.\n");
