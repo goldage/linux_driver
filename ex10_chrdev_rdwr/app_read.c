@@ -6,7 +6,7 @@
 #include <string.h>
 
 #define GLOBALSIZE 128
-#define PATHNAME "/dev/ex"
+#define PATHNAME "/dev/test_dev"
 
 int main(int argc,const char * argv[])
 {
